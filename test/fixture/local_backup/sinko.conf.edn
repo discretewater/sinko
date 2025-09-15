@@ -1,0 +1,5 @@
+{:source ["./test/fixture/local_backup/source/file1.txt"
+					"./test/fixture/local_backup/source/file2.txt"
+					"./test/fixture/local_backup/source/file3.txt"
+          "./test/fixture/local_backup/source/dir1/"]
+ :destination "./test/fixture/local_backup/dest/"}
