@@ -1,6 +1,8 @@
-# Sinko Backup Tool
+# SINKO Backup Tool
 
-Sinko is a flexible backup tool that supports both local and remote backups using rsync and SSH.
+[![PyPI version](https://badge.fury.io/py/sinko.svg)](https://badge.fury.io/py/sinko)
+
+SINKO is a flexible backup tool that supports both local and remote backups using rsync and SSH.
 
 SINKO is a lightweight, open-source file backup tool designed with simplicity in mind. Inspired by the functionality of rsync, SINKO streamlines the process of synchronizing and backing up files across directories and systems. By focusing on the essential features you need to keep your files secure, SINKO eliminates the complexity often associated with robust backup tools. This straightforward approach makes SINKO an accessible solution for users of all skill levels, allowing you to safeguard your valuable data without getting bogged down in intricate configurations.
 
@@ -27,7 +29,7 @@ SINKO is a lightweight, open-source file backup tool designed with simplicity in
 
 ## Usage
 
-To use Sinko, you need to create an EDN configuration file (e.g., `sinko.conf.edn`) with the following structure:
+To use SINKO, you need to create an EDN configuration file (e.g., `sinko.conf.edn`) with the following structure:
 
 ```edn
 {:source ["/path/to/file1.txt"
